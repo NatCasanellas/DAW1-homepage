@@ -4,6 +4,7 @@ a {
     text-decoration: none;
     font-style: inherit;
     color: black;
+    font-family: 'Red Hat Mono', monospace;
 }
 
 body {
@@ -13,9 +14,9 @@ body {
 }
 
 header, footer {
-    
     border-bottom: 2px solid black;
     border-top: 2px solid black;
+    font-family: 'Red Hat Mono', monospace;
 }
 .links a {
     padding: 1rem;
@@ -23,7 +24,7 @@ header, footer {
 }
 
 .links a:hover, .links a:focus {
-    background-color: aqua;
+    background-color: rgb(175, 107, 155);
 }
 
 .links {
@@ -60,14 +61,15 @@ footer h3 {
     text-align: center;
 }
 
-.content a img {
-    max-width: 70%;
-    max-height: 70%;
+.content a img { /*per canviar la imatge nuvol*/
+    max-width: 80%;
+    max-height: 80%;
     margin: auto;
+    border-radius: 100%;
 }
 
 .content a:hover, .content a:focus {
-    background-color: aquamarine;
+    background-color: rgb(175, 107, 155);
 }
 
 .about {
