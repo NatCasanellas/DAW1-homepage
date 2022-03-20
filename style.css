@@ -6,6 +6,12 @@ a {
     color: black;
 }
 
+body {
+    height: 665px;
+    background-image: url(https://www.pinterest.es/pin/292171094588387976/);
+    background-size: 10rem;
+}
+
 header, footer {
     
     border-bottom: 2px solid black;
