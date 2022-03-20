@@ -5,13 +5,13 @@ a {
     font-style: inherit;
     color: black;
 }
-
+/*
 body {
     height: 665px;
     background-image: url(img/background.jpg);
-    background-size: 1rem;
+    background-size: 10rem;
 }
-
+*/
 header, footer {
     
     border-bottom: 2px solid black;
