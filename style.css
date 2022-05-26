@@ -9,9 +9,11 @@ a {
 
 body {
     height: 665px;
+    background-color: antiquewhite;
+    /*
     background-image: url(img/background.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     /*background-size: 10rem;*/
 }
 
@@ -26,7 +28,7 @@ header, footer {
 }
 
 .links a:hover, .links a:focus {
-    background-color: rgb(175, 107, 155);
+    background-color: rgb(242, 198, 141);/* rgb(175, 107, 155);*/
 }
 
 .links {
@@ -57,13 +59,13 @@ footer h3 {
     margin:2rem;
 }
 
-.content a {
+.content a {/*el contorn de la caixeta de la paraula Activitat*/
     padding: 1rem;
     border: 2px solid black;
     text-align: center;
 }
 
-.content a img { /*per canviar la imatge nuvol*/
+.content a img { /*per canviar la imatge */
     max-width: 80%;
     max-height: 80%;
     margin: auto;
@@ -71,7 +73,7 @@ footer h3 {
 }
 
 .content a:hover, .content a:focus {
-    background-color: rgb(175, 107, 155);
+    background-color:rgb(242, 198, 141);/* rgb(175, 107, 155);*/
 }
 
 .about {
