@@ -22,7 +22,7 @@ header, footer {
     border-top: 2px solid black;
     font-family: 'Red Hat Mono', monospace;
 }
-.links a {
+.links a {/*contorn de la caixeta de dalt home projecte etc*/
     padding: 1rem;
     border: 1px solid black;
 }
